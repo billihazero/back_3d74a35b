@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(responseHandler);
 
-app.use("api", router);
+app.use("/api", router);
 app.use(errorHandler);
 
 app.listen(PORT, async () => {
