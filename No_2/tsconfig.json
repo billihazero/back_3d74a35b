@@ -8,8 +8,11 @@
     "paths": {
       "@/*": ["*"],
       "@middleware/*": ["middleware/*"],
+      "@utils/*": ["utils/*"],
       "@config/*": ["config/*"],
-      "@routes/*": ["routes/*"]
+      "@routes/*": ["routes/*"],
+      "@controllers/*": ["controllers/*"],
+      "@services/*": ["services/*"]
     },
     "typeRoots": ["./node_modules/@types", "./src/types"],
     "strict": true,
